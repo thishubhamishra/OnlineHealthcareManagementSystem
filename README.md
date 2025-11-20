@@ -1,47 +1,72 @@
-# Online Healthcare Management System Using Java, JDBC, Servlets & JSP
+# Online Healthcare Management System
 
-## Overview
-This is a web-based Online Healthcare Management System implemented in Java using Object-Oriented Programming (OOP) principles along with Servlets, JSP, and JDBC. It allows users to:
-
-- Register as Patient or Doctor  
-- Login with authentication  
-- Book appointments (Patient)  
-- View/manage appointments (Doctor)  
-- Store and retrieve data using MySQL  
-
-The system demonstrates modular design, MVC architecture, and integration of core Java concepts with database connectivity.
+A web-based **Online Healthcare Management System** built using **Core Java, JDBC, Servlets, JSP, and MySQL**.  
+The system provides role-based access for Patients and Doctors with full appointment management features.
 
 ---
 
-## Features
-- User registration & login  
-- Role-based dashboards (Patient / Doctor)  
-- Appointment booking with date, time, and reason  
-- Doctors can view all assigned appointments  
-- Input validation & error handling  
-- JDBC-based database operations using DAO pattern  
-- Session handling using Servlets  
+## 🚀 Overview
+
+This system allows users to:
+
+- Register as **Patient** or **Doctor**
+- Login with **role-based authentication**
+- **Book appointments** (Patient)
+- **View/manage appointments** (Doctor)
+- Store and manage data using a secure MySQL database
+
+The project follows **MVC Architecture**, ensures modularity, and demonstrates clean **OOP principles**.
 
 ---
 
-## OOP Concepts Demonstrated
-- **Encapsulation:**  
-  Model classes (User, Appointment) use private fields with public getters/setters.
+## 📌 Features
 
-- **Modularity:**  
-  Separate layers for Models, DAOs, Servlets, and JSP Views.
+### 🔹 User Management
+- Register as **Patient** or **Doctor**
+- Login with authentication
+- Role-based dashboards
+- Session handling with Servlets
 
-- **Abstraction:**  
-  Core functions like `saveUser()`, `findByUsername()`, `saveAppointment()` are abstracted in DAO interfaces.
+### 🔹 Appointment System
+- Patients can **book appointments**
+- Doctors can **view assigned appointments**
+- Appointment details: date, time, reason, status  
+- Status types: **BOOKED / CANCELLED / COMPLETED**
 
-- **Reusability:**  
-  `DBUtil.java` provides a reusable database connection handler.
+### 🔹 Database Integration
+- MySQL database via JDBC
+- **DAO (Data Access Object) pattern**
+- Secure `PreparedStatement` queries
+- `schema.sql` included for easy setup
+
+### 🔹 Web Functionality
+- JSP pages for front-end UI
+- Servlets for server-side logic
+- Proper forward/redirect usage
+- Clean MVC folder structure
 
 ---
 
-## How to Run
+## 🧱 OOP Concepts Used
 
-### 1. Compile and Build
-If using Maven:
-```bash
-mvn clean package
+### ✔ Encapsulation
+Model classes use private fields with getters/setters.
+
+### ✔ Modularity
+Separate packages for:
+- DAO interfaces  
+- DAO implementations  
+- Models  
+- Servlets  
+- JSP pages  
+
+### ✔ Abstraction
+Database operations abstracted through DAO methods like:
+- `saveUser()`
+- `findByUsername()`
+- `saveAppointment()`
+
+### ✔ Reusability
+`DBUtil.java` centralizes database connection logic.
+
+---
