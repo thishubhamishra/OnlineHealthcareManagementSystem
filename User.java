@@ -1,11 +1,9 @@
-package com.myapp.healthcare.model;
-
 public class User {
     private int id;
     private String username;
-    private String password; // NOTE: for Review-1 plain is OK; use hashing for production
+    private String password;
     private String fullName;
-    private String role; // "PATIENT", "DOCTOR", "ADMIN"
+    private String role;
 
     public User() {}
 
