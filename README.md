@@ -1,37 +1,61 @@
 # Online Healthcare Management System
 
-A web-based **Online Healthcare Management System** built using **Core Java, JDBC, Servlets, JSP, and MySQL**.  
-The system provides role-based access for Patients and Doctors with full appointment management features.
+This repository contains the **Review-1 deliverables** for the *Online Healthcare Management System* project.
+The focus of this phase is on **Core Java**, **OOP**, **JDBC**, **DAO design**, and **Database Schema**.
 
----
+## 1. Project Overview
+The Online Healthcare Management System is a Java-based application designed to manage:
 
-## 🚀 Overview
+- Users (Patients, Doctors)
+- Appointments
 
-This system allows users to:
+In **Review-1**, we implemented:
+- Core Java classes  
+- OOP concepts  
+- Database schema  
+- JDBC connectivity  
+- DAO pattern  
 
-- Register as **Patient** or **Doctor**
-- Login with **role-based authentication**
-- **Book appointments** (Patient)
-- **View/manage appointments** (Doctor)
-- Store and manage data using a secure MySQL database
+## 2. Features Implemented
+### Core Java + OOP
+- Encapsulation  
+- Abstraction (DAO)  
+- Modular code  
 
-The project follows **MVC Architecture**, ensures modularity, and demonstrates clean **OOP principles**.
+### JDBC Integration
+- Database connection (`DBUtil.java`)
+- PreparedStatement usage  
 
----
+### DAO Layer
+- UserDAO, UserDAOImpl
+- AppointmentDAO, AppointmentDAOImpl  
 
-## 📌 Features
+### Database Design
+Tables:
+- users
+- appointments
 
-### 🔹 User Management
-### 🔹 Appointment System
-### 🔹 Database Integration
-### 🔹 Web Functionality
+## 3. Included Files
+- User.java
+- Appointment.java
+- DBUtil.java
+- UserDAO.java
+- UserDAOImpl.java
+- AppointmentDAO.java
+- AppointmentDAOImpl.java
+- schema.sql
+- README.md
 
----
+## 4. How to Run
+1. Import `schema.sql`
+2. Update DBUtil.java credentials
+3. Compile and test DAO
 
-## 🧱 OOP Concepts Used
+## 5. Not Included Yet
+- Servlets, JSP, UI
 
-### ✔ Encapsulation
-### ✔ Modularity
-### ✔ Abstraction
-### ✔ Reusability
----
+## 6. Team Members
+- Shubham Mishra
+- Aditya Sharma
+- Raushan Roy
+- Raushan Tiwari
