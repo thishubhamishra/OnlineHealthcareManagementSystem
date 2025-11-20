@@ -1,6 +1,6 @@
 # Online Healthcare Management System
 
-This repository contains the **Review-1 deliverables** for the *Online Healthcare Management System* project.
+This repository contains the  *Online Healthcare Management System* project.
 The focus of this phase is on **Core Java**, **OOP**, **JDBC**, **DAO design**, and **Database Schema**.
 
 ## 1. Project Overview
@@ -14,7 +14,9 @@ In **Review-1**, we implemented:
 - OOP concepts  
 - Database schema  
 - JDBC connectivity  
-- DAO pattern  
+- DAO pattern
+
+---
 
 ## 2. Features Implemented
 ### Core Java + OOP
@@ -35,6 +37,8 @@ Tables:
 - users
 - appointments
 
+---
+
 ## 3. Included Files
 - User.java
 - Appointment.java
@@ -46,16 +50,15 @@ Tables:
 - schema.sql
 - README.md
 
-## 4. How to Run
-1. Import `schema.sql`
-2. Update DBUtil.java credentials
-3. Compile and test DAO
+---
 
-## 5. Not Included Yet
-- Servlets, JSP, UI
-
-## 6. Team Members
+## 4. Team Members
 - Shubham Mishra
 - Aditya Sharma
 - Raushan Roy
 - Raushan Tiwari
+
+---
+
+## License
+This project is for educational purposes and open-source. You are free to modify and redistribute it with attribution.
